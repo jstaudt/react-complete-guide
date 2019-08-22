@@ -13,7 +13,6 @@ class App extends Component {
 
   switchNameHandler = (newName) =>
   {
-    // console.log('yoooooo');
     //DON'T DO THIS: this.state.people[0].name = '';
     this.setState({
       people: [
